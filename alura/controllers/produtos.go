@@ -1,20 +1,15 @@
-package main
+package controllers
 
 import (
-	"html/template"
 	"net/http"
+	"text/template"
 
-	"github.com/caahpaiva/models"
+	"github.com/caahpaiva/alura/models"
 )
 
 var temp = template.Must(template.ParseGlob("templates/*.html"))
 
-func main() {
-	http.HandleFunc("/", index)
-	http.ListenAndServe(":800", nil)
-}
-
-func index(w http.ResponseWriter, r *http.Request) {
+func Index(w http.ResponseWriter, r *http.Request) {
 	todosOsProdutos := models.BuscaTodosOsProdutos()
 	temp.ExecuteTemplate(w, "Index", todosOsProdutos)
 
