@@ -1,7 +1,7 @@
 package contas
 
 import (
-	"github.com/caahpaiva/Golang/tree/master/banco/clientes"
+	"github.com/caahpaiva/Golang/banco/clientes"
 )
 
 type ContaCorrente struct {
