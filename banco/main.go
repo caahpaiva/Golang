@@ -1,8 +1,9 @@
 package main
 
 import (
-	"fmt",
-	"github.com\caahpaiva\Golang\banco\contas ",
+	"fmt"
+
+	"github.com\caahpaiva\Golang\banco\contas"
     "github.com\caahpaiva\Golang\banco\clientes"
 
 )
