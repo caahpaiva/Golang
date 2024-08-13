@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"C:\Users\carolini.damiao\go\src\github.com\caahpaiva\Golang\banco\clientes"
-    "C:\Users\carolini.damiao\go\src\github.com\caahpaiva\Golang\banco\contas"
+	"github.com/caahpaiva/Golang/tree/master/banco/contas"
+    "github.com/caahpaiva/Golang/tree/master/banco/clientes"
 
 )
 
